@@ -1,0 +1,176 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Tortoise List</string>
+
+    <!-- notification channel -->
+    <string name="notification_channel_id">notification_channel</string>
+    <string name="notification_channel_name">notification channel</string>
+    <string name="notification_channel_description">normal channel for basic notifications</string>
+    <string name="notification_title">scheduled to do</string>
+
+    <!-- service notification channel -->
+    <string name="service_notification_channel_id">service_notification_channel</string>
+    <string name="service_notification_channel_name">service_notification_channel</string>
+    <string name="service_notification_channel_description">notification channel for service</string>
+    <string name="service_notification_title">Tortoise List is running over top of the lock screen for quick viewing</string>
+
+    <!-- Splash Activity -->
+    <string name="when_user_created">Welcome to Tortoise List!</string>
+    <string name="when_failed_to_create_user">Failed to create a user</string>
+
+    <!-- Permission Activity -->
+    <string name="permission_guide_text">Please allow these permissions</string>
+    <string name="permission_necessary">(necessary)</string>
+    <string name="permission_read_phone_state">READ PHONE STATE</string>
+    <string name="permission_read_phone_state_small">To disable the \'appear on lock screen\' feature during phone calls </string>
+    <string name="permission_access_draw_overlay">DRAW OVERLAY</string>
+    <string name="permission_access_draw_overlay_small">To show to do list over lock screen</string>
+    <string name="permission_access_schedule_exact_alarm">SCHEDULE EXACT ALARM</string>
+    <string name="permission_access_schedule_exact_alarm_small">To send notifications at the exact time</string>
+    <string name="permission_access_notification">NOTIFICATION</string>
+    <string name="permission_access_notification_small">To send notifications to user</string>
+    <string name="permission_start_text">START</string>
+    <string name="when_permission_denied">These permissions are required to run the app.</string>
+
+    <!-- List Activity -->
+    <string name="items_status_completed">completed</string>
+    <string name="items_status_not_yet_completed">to do</string>
+
+    <string name="when_no_item_selected">No items have been selected</string>
+
+    <string name="when_delete_items">Are you sure you want to delete the selected items?</string>
+    <string name="when_items_deleted">The items have been successfully deleted.</string>
+
+    <string name="when_back_pressed">Press back again to exit the app</string>
+
+    <string name="when_check_items">Do you want to mark these items as \'complete\'?</string>
+    <string name="when_uncheck_items">Do you want to mark these items as \'to do\'?</string>
+
+    <!-- Setting Activity -->
+
+    <string name="category_language">Language</string>
+    <string name="category_services">services</string>
+    <string name="category_item_view">item view</string>
+    <string name="category_way_to_arrange_items">way to arrange items</string>
+
+    <string name="language_english">English</string>
+    <string name="language_korean">한국어</string>
+
+    <string name="when_language_change_to_english">The app needs to be restarted when the language setting is changed. Are you sure you want to proceed?</string>
+    <string name="when_language_change_to_english_yes">YES</string>
+    <string name="when_language_change_to_english_no">NO</string>
+
+    <string name="when_language_change_to_korean">언어 변경 시 어플리케이션을 재시작합니다.</string>
+    <string name="when_language_change_to_korean_yes">확인</string>
+    <string name="when_language_change_to_korean_no">취소</string>
+
+    <string name="service_notification">notification</string>
+    <string name="service_notification_guide">When you set a reminder, it sends a notification at the scheduled time.</string>
+    <string name="service_lock_screen_mode">display to-do list over the lock screen</string>
+    <string name="service_lock_screen_mode_guide">Displays the to-do list over the lock screen. This feature may use more battery than usual. This feature requires that the lock screen is being used on the device to function properly.</string>
+    <string name="item_view_show_title">show title</string>
+    <string name="item_view_show_content">show content</string>
+    <string name="item_view_show_created">show created</string>
+    <string name="item_view_show_updated">show updated</string>
+    <string name="item_view_show_progress">show progress</string>
+    <string name="item_view_show_scheduled">show scheduled</string>
+    <string name="item_view_show_check_icon">show check icon</string>
+
+    <string name="way_to_arrange_items_sort_by">sort by</string>
+    <string name="way_to_arrange_items_sort_by_new_to_old">new -> old</string>
+    <string name="way_to_arrange_items_sort_by_old_to_new">old -> new</string>
+    <string name="way_to_arrange_items_filter_by">filter by</string>
+    <string name="way_to_arrange_items_filter_by_uncompleted">uncompleted</string>
+    <string name="way_to_arrange_items_filter_by_completed">completed</string>
+    <string name="way_to_arrange_items_filter_by_both">both</string>
+
+
+    <!-- Item Activity -->
+    <string name="when_check_clicked">Do you want to mark this item as \'complete\'?</string>
+    <string name="when_uncheck_clicked">Do you want to mark this item as \'to do\'?</string>
+    <string name="when_unsaved_changes">There are unsaved changes. Would you like to save them?</string>
+
+    <string name="when_delete_an_alarm">Would you like to delete the existing reminder?</string>
+
+    <string name="when_delete_the_item">Are you sure to delete this item?</string>
+    <string name="when_item_deleted">The item has been successfully deleted.</string>
+    <string name="when_item_delete_failed">Failed to delete the item.</string>
+
+    <string name="when_no_title">Please enter a title.</string>
+
+    <string name="when_alarm_deleted">The reminder has been successfully deleted.</string>
+    <string name="when_alarm_save_failed">Failed To save reminder</string>
+    <string name="when_item_save_failed">Failed To save changes</string>
+
+    <string name="when_save_successful">saved successfully.</string>
+
+    <string name="btn_close">close</string>
+    <string name="btn_delete">delete</string>
+    <string name="btn_timer">reminder</string>
+    <string name="btn_save">save</string>
+    <string name="btn_create">create</string>
+
+    <string name="when_item_not_exist">This item no longer exists.</string>
+
+
+
+    <!-- Dialog Button Text -->
+    <string name="btnText_yes">YES</string>
+    <string name="btnText_no">NO</string>
+    <string name="btnText_cancel" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="btnText_go_back">GO BACK</string>
+    <string name="btnText_delete">DELETE</string>
+    <string name="btnText_cancel_edit">CANCEL EDIT</string>
+    <string name="btnText_finish_edit">FINISH EDIT</string>
+    <string name="btnText_save">SAVE</string>
+    <string name="btnText_exit">EXIT</string>
+    <string name="btnText_set">SET</string>
+
+    <!-- Dialog -->
+    <string name="set_reminder_text">When should we remind you?</string>
+
+    <string name="work_on_alarm_text">There is already a reminder for this item. What do you want to do with the reminder?</string>
+    <string name="work_on_alarm_edit">EDIT</string>
+    <string name="work_on_alarm_delete">DELETE</string>
+
+    <string name="work_on_item_text">What do you want to do to this item?</string>
+    <string name="work_on_item_read">READ</string>
+    <string name="work_on_item_edit">EDIT</string>
+    <string name="work_on_item_mark">MARK AS \'COMPLETE\'</string>
+    <string name="work_on_item_erase_mark">MARK AS \'TO DO\'</string>
+    <string name="work_on_item_delete">DELETE</string>
+    <string name="work_on_item_read_or_edit">READ OR EDIT</string>
+    <string name="work_on_item_timer">REMINDER</string>
+
+    <!-- etc -->
+    <string name="empty">no content</string>
+    <string name="empty2">empty</string>
+    <string name="created">created</string>
+    <string name="updated">updated</string>
+    <string name="scheduled">scheduled</string>
+    <string name="unscheduled">unscheduled</string>
+
+    <string name="title">TITLE</string>
+    <string name="content">CONTENT (not necessary)</string>
+
+    <string name="nothing_to_do">nothing to do</string>
+    <string name="fail">The task has failed.</string>
+
+    <string name="when_item_created">The item has been created.</string>
+
+    <!-- activity titles -->
+    <string name="to_do_list">To Do List</string>
+    <string name="lock_screen_mode">Lock Screen Mode</string>
+    <string name="setting">setting</string>
+    <string name="to_do_create">Create Item</string>
+    <string name="to_do_item">item</string>
+
+    <!-- lock screen activity -->
+
+    <string name="text_clock_sample_text_time">23:12 AM</string>
+    <string name="time_format_12hour">EEE\nM/d/yyyy\nhh:mm:ss a</string>
+    <string name="time_format_24hour">EEE\nM/d/yyyy\nHH:mm:ss</string>
+
+    <!-- error caused by android versions -->
+    <string name="feature_not_supported">This feature is not supported on this device.</string>
+
+</resources>
